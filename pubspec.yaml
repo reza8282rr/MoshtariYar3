@@ -1,0 +1,19 @@
+name: iranian_instagram
+description: A lightweight Instagram clone optimized for Iranian intranet.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0 # برای ارتباط با سرور ایرانی
+  image_picker: ^1.0.7 # برای انتخاب عکس از گالری جهت پست جدید
+  shared_preferences: ^2.2.2 # برای ذخیره توکن کاربر (بدون نیاز به ورود مجدد)
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    
